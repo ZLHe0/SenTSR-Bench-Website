@@ -55,9 +55,9 @@
                 <a href="https://huggingface.co/datasets/ZLHe0/SenTSR-Bench" class="inline-flex items-center gap-2 bg-white text-amazon-dark px-5 py-2.5 rounded-lg border border-gray-300 font-semibold hover:bg-gray-100 transition">
                     <i class="fa-solid fa-database"></i> Dataset
                 </a>
-                <span class="inline-flex items-center gap-2 bg-gray-300 text-gray-500 px-5 py-2.5 rounded-lg border border-gray-300 font-semibold cursor-not-allowed">
-                    <i class="fa-brands fa-github"></i> Code &mdash; Under Review
-                </span>
+                <a href="https://github.com/ZLHe0/SenTSR-Bench" class="inline-flex items-center gap-2 bg-white text-amazon-dark px-5 py-2.5 rounded-lg border border-gray-300 font-semibold hover:bg-gray-100 transition">
+                    <i class="fa-brands fa-github"></i> Code
+                </a>
             </div>
         </div>
     </header>
@@ -322,11 +322,14 @@
         <section class="bg-white rounded-xl shadow border border-gray-200 p-6 md:p-8">
             <h2 class="text-2xl font-bold text-amazon-dark mb-4">Citation</h2>
             <div class="relative">
-                <pre id="bibtex" class="bg-gray-900 text-gray-100 p-4 rounded-lg text-sm overflow-x-auto leading-relaxed">@inproceedings{He2026SenTSRBench,
-  title     = {SenTSR-Bench: Thinking with Injected Knowledge for Time-Series Reasoning},
-  author    = {He, Zelin and Han, Boran and Zhang, Xiyuan and Zhang, Shuai and Lin, Haotian and Zhu, Qi and Fang, Haoyang and Maddix, Danielle C. and Ansari, Abdul Fatir and Chandrayan, Akash and Pradhan, Abhinav and Wang, Bernie and Reimherr, Matthew},
-  booktitle = {Proceedings of the International Conference on Artificial Intelligence and Statistics (AISTATS)},
-  year      = {2026}
+                <pre id="bibtex" class="bg-gray-900 text-gray-100 p-4 rounded-lg text-sm overflow-x-auto leading-relaxed">@misc{he2026sentsrbenchthinkinginjectedknowledge,
+      title={SenTSR-Bench: Thinking with Injected Knowledge for Time-Series Reasoning},
+      author={Zelin He and Boran Han and Xiyuan Zhang and Shuai Zhang and Haotian Lin and Qi Zhu and Haoyang Fang and Danielle C. Maddix and Abdul Fatir Ansari and Akash Chandrayan and Abhinav Pradhan and Bernie Wang and Matthew Reimherr},
+      year={2026},
+      eprint={2602.19455},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2602.19455},
 }</pre>
                 <button onclick="copyBibtex()" class="copy-btn absolute top-3 right-3 bg-amazon-dark text-white px-3 py-1.5 rounded text-sm font-medium transition">
                     <i class="fa-regular fa-copy mr-1"></i> Copy
@@ -337,7 +340,6 @@
         <!-- Status Notice -->
         <div class="bg-gray-50 rounded-xl border border-gray-200 p-5 text-sm text-gray-600 flex flex-col sm:flex-row sm:items-center sm:justify-center gap-3 sm:gap-6">
             <span><i class="fa-solid fa-wrench mr-1 text-amazon-dark"></i> This website is under active development.</span>
-            <span><i class="fa-solid fa-lock mr-1 text-amazon-dark"></i> Codebase is under internal review.</span>
         </div>
 
     </main>
